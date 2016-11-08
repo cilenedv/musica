@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Play songs using voice commands</title>
+    <meta name="description" content="A proof of concept using browser speech recognition and the Spotify Web API to play some music">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jmperezperez">
+    <meta name="twitter:title" content="Play songs using voice commands">
+    <meta name="twitter:description" content="A proof of concept using browser speech recognition and the Spotify Web API to play some music">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <main>
+      <div id="commands">
+        <h1 class="voz">Comando de voz</h1><br><br>
+        <ul class="play">
+          <li>Play {nombre de la canción}</li>
+          <li>Play {nombre de la canción} by {nombre del artista}</li>
+        </ul>
+      </div><br>
+      <div id="conversation">
+      </div>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.4.0/annyang.min.js"></script>
+    <script src="js/spotify.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
