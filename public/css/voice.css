@@ -4,15 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-h1, h2, p {
-  margin-bottom: 20px;
-}
-
-h1 {
-  line-height: 1.3em;
-}
-
 body {
   font-family: Helvetica, Arial;
   font-size: 16px;
@@ -21,6 +12,9 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-image: url(../img/fondo.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
@@ -30,13 +24,7 @@ main {
   padding: 0 20px;
 }
 
-footer {
-  background-color: #eee;
-  padding: 10px;
-  text-align: center
-}
-
-ul {
+.play{
   margin-left: 30px;
 }
 
